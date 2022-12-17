@@ -5,12 +5,16 @@ body {
   font-size: 10px;
   line-height: 150%;
   color: #485268;
-  box-sizing: border-box;
-  margin: 0;
+  background-color: #E5E5E5;
 }
 
 strong {
   font-weight: 500;
+}
+
+.page {
+  width: 595px;
+  margin: 0 auto;
 }
 
 .about {
@@ -43,6 +47,7 @@ strong {
 
 .main {
   padding: 0 40px;
+  background-color: white;
 }
 
 .contacts {
@@ -120,4 +125,46 @@ strong {
 .study__description {
   margin: 0;
   margin-top: 8px;
+}
+
+.skills {
+  display: flex;
+}
+
+.skills__list {
+  box-sizing: border-box;
+  margin: 0;
+  width: 50%;
+  border-left: 1px dashed #DEE2ED;
+  list-style: none;
+  padding-left: 8px;
+}
+
+.skills__item {
+  margin-top: 8px;
+}
+
+.skills__item:first-child {
+  margin-top: 0;
+}
+
+.tools {
+  display: flex;
+}
+
+.tools__list {
+  box-sizing: border-box;
+  margin: 0;
+  width: 50%;
+  border-left: 1px dashed #DEE2ED;
+  list-style: none;
+  padding-left: 8px;
+}
+
+.tools__item {
+  margin-top: 8px;
+}
+
+.tools__item:first-child {
+  margin-top: 0;
 }
